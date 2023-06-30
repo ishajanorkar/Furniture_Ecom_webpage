@@ -1,0 +1,506 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+}
+
+
+
+
+
+
+/* nav bar */
+
+nav {
+    width: 100vw;
+    background-color: #3b5f50;
+    padding: 1% 0px 0px 1.8% !important;
+
+}
+
+
+.flogo img {
+    width: 70px;
+
+}
+
+
+#navbarNav li a {
+    top: 0;
+    color: rgba(215, 215, 215, 0.507);
+    margin: 12px;
+}
+
+#navbarNav li a:hover {
+    top: 0;
+    color: rgb(250, 250, 250);
+    font-size: 17px;
+    border-bottom: 4px solid rgb(222, 174, 1);
+}
+
+#navbarNav li a.active {
+    top: 0;
+    color: rgb(250, 250, 250);
+    font-size: 17px;
+    border-bottom: 4px solid rgb(222, 174, 1);
+}
+
+.navlogo {
+
+    width: 35px;
+    cursor: pointer;
+}
+
+.marginleft {
+    margin-left: 30px;
+}
+
+.marginleft1 {
+    margin-left: 0% !important;
+}
+
+
+
+
+
+
+.togicon {
+    color: white;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
+
+
+
+
+/* home section */
+
+.homesec {
+    width: 100vw;
+    height: 500px;
+    background-color: #3b5f50;
+    padding: 0px 30px 0px 0px;
+
+}
+
+.home-content {
+    position: relative;
+    padding-left: 1.7%;
+
+}
+
+.home-content h1 {
+    color: white;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    left: 0;
+}
+
+.home-btn {
+    margin-top: 20%;
+}
+
+
+.home-btnl {
+    border: 2px solid rgba(215, 215, 215, 0.507);
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    background-color: transparent;
+    padding: 12px 22px;
+
+}
+
+.home-btnl:hover {
+    border: none;
+    color: black;
+    background-color: rgb(222, 174, 1);
+}
+
+
+.home-btnr {
+    border: none;
+    border-radius: 30px;
+    color: black;
+    background-color: rgb(222, 174, 1);
+    font-size: 15px;
+    padding: 12px 22px;
+
+}
+
+.home-btnr:hover {
+    border: 2px solid rgba(215, 215, 215, 0.507);
+    color: white;
+    background-color: transparent;
+
+}
+
+.imgbox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.imgbox img {
+    position: relative;
+}
+
+.imgbox #splash {
+    width: 250px;
+    position: absolute;
+    top: 20%;
+    left: 80%;
+}
+
+.imgbox #gcouch {
+
+    width: 1000px;
+    top: 17%;
+    left: 5%;
+}
+
+
+
+/* About section */
+
+.aboutsec {
+    width: 100vw;
+    height: 600px;
+    padding: 5% 5% 0% 7%;
+
+}
+
+
+
+.abouthead {
+    word-spacing: 2px;
+}
+
+.aboutpara {
+    padding-top: 7px;
+    word-spacing: 2px;
+    color: rgb(103, 102, 102);
+    font-size: 15px;
+}
+
+
+.exlporebtn {
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    padding: 10px 25px;
+}
+
+.exlporebtn:hover {
+    border: 1px solid black;
+    border-radius: 30px;
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    padding: 11px 26px;
+}
+
+.product1 {
+    width: 170px;
+    height: auto;
+}
+
+.product2 {
+    width: 200px;
+    height: 240px;
+    padding-left: 30px;
+
+}
+
+.product3 {
+    width: 150px;
+    height: auto;
+}
+
+
+.card {
+    cursor: pointer;
+    border: none;
+    height: 250px;
+    width: 270px;
+    top: 12%;
+    position: relative;
+}
+
+.card1 {
+    cursor: pointer;
+    border: none;
+    height: 250px;
+    width: 270px;
+
+
+}
+
+.card:hover {
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    height: 250px;
+    width: 270px;
+    position: relative;
+    align-items: center;
+    background-color: rgba(205, 224, 224, 0.582);
+
+
+}
+
+.card img {
+    max-width: 100%;
+    position: absolute;
+    right: 20%;
+    bottom: 34%;
+
+}
+
+.card:hover img {
+    bottom: 45%;
+    transform: translateY(-50% -50%);
+    transition: all(0.2s);
+
+}
+
+.card h6 {
+    position: relative;
+    top: 180px;
+}
+
+.card h6 i {
+    opacity: 0;
+}
+
+.card:hover h6 i {
+    opacity: 1;
+}
+
+
+/* Services Section */
+
+.servicesec {
+    padding: 0% 5% 0% 5%;
+}
+
+.leftdiv1 {
+    padding: 3% 3% 0% 4.5%;
+}
+
+.Servicepara {
+    word-spacing: 2px;
+    font-size: 15px;
+    color: rgb(103, 102, 102);
+}
+
+.rightdiv1 {
+    padding: 0% 3% 0% 3%;
+
+}
+
+.rightdiv1 #splash2 {
+    width: 300px;
+    position: absolute;
+}
+
+.rightdiv1 #ServiceImg1 {
+    width: 450px;
+    top: 10%;
+    left: 28%;
+}
+
+.Div2 {
+    margin-top: 12%;
+}
+
+.leftdiv2 #splash3 {
+    width: 300px;
+    position: absolute;
+}
+
+.leftdiv2 #ServiceImg2 {
+    width: 600px;
+    top: 12%;
+    left: 18%;
+
+}
+
+.rightdiv2 {
+    padding: 10% 0% 0% 10%;
+}
+
+.servicehead {
+    line-gap-override: 2px;
+}
+
+.rightdiv2 ul li {
+    list-style-type: circle;
+    word-spacing: 2px;
+    font-size: 15px;
+    color: rgb(103, 102, 102);
+
+}
+
+.Div3 {
+    padding: 10% 0% 5% 3%;
+}
+
+.readmore {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(103, 102, 102);
+    cursor: pointer;
+}
+
+.readmore:hover {
+    font-size: 16px;
+    color: rgb(12, 12, 12);
+
+}
+
+
+.Div4 {
+    padding: 5% 10% 5% 10%;
+}
+
+.Carousal-content {
+    padding: 2% 5% 0% 5%;
+}
+
+.carouselbtn {
+    background-color: #3b5f50;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 10px;
+
+}
+
+.parapadding {
+    padding: 0% 8% 0% 8%;
+}
+
+.CarauselImg {
+    width: 100px;
+
+}
+
+.CarauselImgdiv {
+    padding: 10% 0% 0% 45%;
+}
+
+.imgdecrib {
+    font-size: 13px;
+    word-spacing: 3px;
+    padding-left: 1.5%;
+}
+
+
+
+/* bolg section */
+
+.blogsec {
+    padding: 0% 0% 0% 3%;
+    height: 500px;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(238, 238, 238));
+}
+
+
+.Blog-content {
+    padding: 0% 0% 0% 0%;
+}
+
+.blogimg {
+    width: 370px;
+    height: 250px;
+    margin-left: 2%;
+}
+
+.blogcard-content1 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.blogcard-content2 {
+    font-size: 13px;
+}
+
+
+/* Contact Section */
+
+.contactsec{
+    padding: 0% 3% 0% 3%;
+    height: 300px;
+}
+.contact-content {
+    padding: 5% 2% 0% 5%;
+}
+
+.contact-content1 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.contact-content input {
+    width: 100%;
+    border: 2px solid rgb(181, 181, 181);
+    border-radius: 10px;
+    padding: 3%;
+
+}
+
+.contactimg1 img{
+    width: 450px;
+}
+.contactimg1{
+   
+    position: relative;
+    top: -20%;
+}
+
+
+/* footer */
+
+.footersec{
+    padding: 5% 6% 2% 6%;
+}
+
+
+.footlogo{
+    width: 80px;
+}
+
+.footimg{
+    width: 40px;
+    margin-left: 2px;
+}
+
+.foot-content{
+
+    font-size: 13px;
+    color: rgb(103, 102, 102);
+}
